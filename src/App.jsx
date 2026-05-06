@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import VideoGrid from "./components/VideoGrid";
+import VideoGrid from "./components/VideoGrid.jsx";
 
 function App() {
   const [videos, setVideos] = useState([]);
