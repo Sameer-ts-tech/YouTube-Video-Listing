@@ -1,4 +1,4 @@
-import VideoCard from "./VideoCard";
+import VideoCard from "./videoCard";
 
 const VideoGrid = ({ videos }) => {
   return (
