@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.channel {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.stats {
+  font-size: 13px;
+  color: #777;
+}
